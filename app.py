@@ -40,7 +40,7 @@ app.layout = html.Div(children=[
                 'border': 'thin red solid',
                 'color': 'rgb(255, 255, 255)',
                 'backgroundColor': 'rgb(57, 83, 107)',
-                'textAlign': 'center',
+                'textAlign': 'left',
                 }),
         ],className='six columns'),
     ],className='twelve columns'),
