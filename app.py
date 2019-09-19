@@ -11,7 +11,7 @@ myheading1 = 'Step Back! The doors are about to close! Ok, now...no wait, now.'
 myheading2 = 'Better-ish'
 image1 = 'rendering.png'
 image2 = 'metro.png'
-textbody = "Metro's recent on time performance has genuinely improved, but..."
+textbody = "<--- This is what Metro should really look like!"
 sourceurl = 'https://www.wmata.com/about/back2good/index.cfm'
 githublink = 'https://github.com/austinlasseter/dash-dc-layout'
 
@@ -34,7 +34,7 @@ app.layout = html.Div(children=[
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
-                'padding': '40px',
+                'padding': '80px',
                 'font-size': '22px',
                 'height': '240px',
                 'border': 'thin red solid',
