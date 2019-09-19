@@ -34,13 +34,13 @@ app.layout = html.Div(children=[
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
-                'padding': '12px',
+                'padding': '40px',
                 'font-size': '22px',
                 'height': '240px',
                 'border': 'thin red solid',
                 'color': 'rgb(255, 255, 255)',
                 'backgroundColor': 'rgb(57, 83, 107)',
-                'textAlign': 'right',
+                'textAlign': 'center',
                 }),
         ],className='six columns'),
     ],className='twelve columns'),
